@@ -32,8 +32,8 @@ const Hero = () => {
                                 <p>I am a Web Developper based in Schiltigheim.</p>
                                 <div className="about-social text-center">
                                     <ul>
-                                        <li><Link to=""><RiLinkedinFill size={20} /></Link></li>
-                                        <li><Link to=""><RiGithubLine size={20} /></Link></li>
+                                        <li><Link to="https://www.linkedin.com/in/bruchon/"><RiLinkedinFill size={20} /></Link></li>
+                                        <li><Link to="https://github.com/TonyJonathan/"><RiGithubLine size={20} /></Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -54,13 +54,13 @@ const Hero = () => {
                                     </ul>
                                 </div>
                                 <div className="hero-btns">
-                                    <Link to="/contact" className="theme-btn">Download CV <i><RiDownloadLine size={16} /></i> </Link>
+                                    <a href="../../../public/CV.pdf" className="theme-btn" download>Download CV <i><RiDownloadLine size={16} /></i> </a>
                                 </div>
                             </div>
                         </SlideUp>
                         <SlideUp>
                             <div className="about-content-part-bottom">
-                                <h2>Technology I Worked With</h2>
+                                <h2>Technologies I Worked With</h2>
                                 <div className="company-list">
                                     <div className="scroller">
                                         <div className="scroller__inner">

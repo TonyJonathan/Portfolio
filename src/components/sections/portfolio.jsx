@@ -42,7 +42,7 @@ const Portfolio = ({ className }) => {
                             <SlideUp>
                                 <div className="section-title text-center">
                                     <h2>Works & Projects</h2>
-                                    <p>Check out some of my design projects, meticulously crafted with love and dedication,
+                                    <p>Check out some of my projects, meticulously crafted with love and dedication,
                                         each one reflecting the passion and soul I poured into every detail.</p>
                                 </div>
                             </SlideUp>
@@ -73,7 +73,7 @@ const Card = ({ category, title, src, animationClass, id }) => {
                 <div className="project-item style-two">
                     <div className="project-image">
                         <img src={src} alt="Project" />
-                        <Link to="/single-project" className="details-btn"><RiArrowRightUpLine /> </Link>
+                        <Link to={"/single-project/" + id} className="details-btn"><RiArrowRightUpLine /> </Link>
                     </div>
                     <div className="project-content">
                         <span className="sub-title">{category}</span>
