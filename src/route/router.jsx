@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
                 element: <Service />
             },
             {
-                path: "/single-project",
+                path: "/single-project/:id",
                 element: <SingleProject />
             },
             {

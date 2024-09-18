@@ -1,44 +1,39 @@
-import work_1 from "../../assets/images/projects/work1.jpg"
-import work_2 from "../../assets/images/projects/work2.jpg"
-import work_3 from "../../assets/images/projects/work3.jpg"
-import work_4 from "../../assets/images/projects/work4.jpg"
+import dictionary from "../../assets/images/projects/dictionary.png"
+import toDoList from "../../assets/images/projects/toDoList.png"
+import contact from "../../assets/images/projects/contact.png"
+import api from "../../assets/images/projects/api.png"
 
 export const projectsData = [
     {
         id: 1,
-        src: work_1,
-        category: "Design",
-        title: "Mobile Application Design",
+        src: dictionary,
+        category: "Front-end",
+        title: "Dictionary",
+        description: ["As part of my training, I was asked to create a dictionary web application using the Dictionary API and to make it as close to the design as possible."], 
+        technologies : ["HTML", "CSS","Javascript", "Figma"]
     },
     {
         id: 2,
-        src: work_2,
-        category: "Game",
-        title: "Website Makeup Design",
+        src: toDoList,
+        category: "Front-end",
+        title: "To do list",
+        description: ["This project involves creating a task manager application."], 
+        technologies : ["HTML", "CSS","Javascript", "Figma"]
     },
     {
         id: 3,
-        src: work_3,
-        category: "Branding",
-        title: "Brand Identity and Motion Design",
+        src: contact,
+        category: "Back-end",
+        title: "Contact",
+        description: ["This project involves integrating a web application and developing the back-end of a small application that allows adding contacts."], 
+        technologies : ["HTML", "CSS","PHP", "Docker", "MySQL", "MailHog"]
     },
     {
         id: 4,
-        src: work_4,
-        category: "Marketing",
-        title: "Mobile Application Design",
+        src: api,
+        category: "Back-end",
+        title: "API Rest",
+        description: ["The objective of this project is to create a REST API in PHP that allows creating, reading, updating, and deleting a technology in web development using Postman.", "The API will also be able to create, list, modify, and add categories and resources related to technologies."], 
+        technologies : ["HTML", "CSS","PHP", "Docker", "MySQL", "Postman"]
     },
-    {
-        id: 5,
-        src: work_3,
-        category: "Design",
-        title: "Brand Identity and Motion Design",
-    },
-    {
-        id: 6,
-        src: work_1,
-        category: "Marketing",
-        title: "Brand Identity and Motion Design"
-    },
-
 ]

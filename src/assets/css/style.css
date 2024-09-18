@@ -1652,6 +1652,7 @@ ul.extra-skills li i {
 
 .single-project-page-right,
 .single-project-page-left {
+    min-height: 100%;
     padding: 40px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 20px;
@@ -1664,7 +1665,10 @@ ul.extra-skills li i {
 }
 
 .single-project-image img {
-    width: 100%;
+    margin: auto;
+    display: block;
+    width: 80%;
+    object-fit: cover;
 }
 
 .single-info h3 {
