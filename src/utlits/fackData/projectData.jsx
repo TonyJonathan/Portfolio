@@ -10,7 +10,8 @@ export const projectsData = [
         category: "Front-end",
         title: "Dictionary",
         description: ["As part of my training, I was asked to create a dictionary web application using the Dictionary API and to make it as close to the design as possible."], 
-        technologies : ["HTML", "CSS","Javascript", "Figma"]
+        technologies : ["HTML", "CSS","Javascript", "Figma"], 
+        link : "https://tonyjonathan.github.io/05-lab-js-dictionary/"
     },
     {
         id: 2,
@@ -18,7 +19,8 @@ export const projectsData = [
         category: "Front-end",
         title: "To do list",
         description: ["This project involves creating a task manager application."], 
-        technologies : ["HTML", "CSS","Javascript", "Figma"]
+        technologies : ["HTML", "CSS","Javascript", "Figma"], 
+        link : "https://tonyjonathan.github.io/06-lab-js-todo/"
     },
     {
         id: 3,
@@ -26,7 +28,8 @@ export const projectsData = [
         category: "Back-end",
         title: "Contact",
         description: ["This project involves integrating a web application and developing the back-end of a small application that allows adding contacts."], 
-        technologies : ["HTML", "CSS","PHP", "Docker", "MySQL", "MailHog"]
+        technologies : ["HTML", "CSS","PHP", "Docker", "MySQL", "MailHog"], 
+        link : "https://github.com/TonyJonathan/01-lab-php-contact"
     },
     {
         id: 4,
@@ -34,6 +37,7 @@ export const projectsData = [
         category: "Back-end",
         title: "API Rest",
         description: ["The objective of this project is to create a REST API in PHP that allows creating, reading, updating, and deleting a technology in web development using Postman.", "The API will also be able to create, list, modify, and add categories and resources related to technologies."], 
-        technologies : ["HTML", "CSS","PHP", "Docker", "MySQL", "Postman"]
+        technologies : ["HTML", "CSS","PHP", "Docker", "MySQL", "Postman"], 
+        link : "https://github.com/TonyJonathan/02-lab-php-api"
     },
 ]

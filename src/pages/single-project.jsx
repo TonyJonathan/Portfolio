@@ -17,13 +17,15 @@ const SingleProject = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center pb-30">
-                        <p>BRANDING - BENTO STUDIO</p>
+                        <p>PROJECT</p>
                         <h1>{project.title}</h1>
                     </div>
                 </div>
             </div>
             <div class="single-project-image">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img src={project.src} alt="image" />
+            </a>
             </div>
             <div class="container pt-30">
                 <div class="row">
@@ -52,7 +54,7 @@ const SingleProject = () => {
                     {/* <!-- START SINGLE RIGHT DESIGN AREA --> */}
                     <div class="col-lg-8">
                         <div class="single-project-page-right wow fadeInUp delay-0-4s">
-                            <h2>
+                            <h2 style={{ marginBottom: 30 }}>
                                 Description
                             </h2>
                             {project.description?.map(desc => <p>{desc}</p>)}
