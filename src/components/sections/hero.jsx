@@ -46,7 +46,7 @@ const Hero = () => {
                             <div className="about-content-part">
                                 <p>Hello There!</p>
                                 <h2>
-                                    I’m Tony Bruchon, I like to code things from scratch and enjoy bringing ideas to life in the browser.
+                                    I’m Tony, I like to code things from scratch and enjoy bringing ideas to life in the browser.
                                 </h2>
                                 <div className="adress-field">
                                     <ul>

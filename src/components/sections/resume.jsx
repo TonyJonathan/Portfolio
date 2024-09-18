@@ -13,9 +13,9 @@ const Resume = () => {
                             <div className="single-resume">
                                 <h2>Experience</h2>
                                 <div className="experience-list">
-                                    <Card year={'2021 - Present'} title={'Web Designer'} institution={'Themeforest Market '} />
-                                    <Card year={'2021 - 2023'} title={'Marketing Expert GRP'} institution={'Envato Theme Developer'} />
-                                    <Card year={'2021 - 2022'} title={'Web Designer'} institution={'Web Developer & Business Partner'} />
+                                    <Card year={'2024 - Present'} title={'Web Developer - Internship'} institution={'GUSTAVE-AUTO'} />
+                                    <Card year={'2024'} title={'Production Operator'} institution={'SONCEBOZ'} />
+                                    <Card year={'2018 - 2019'} title={"Crash and Mechanical Technician"} institution={'FLEX-N-GATE'} />
                                 </div>
                             </div>
                         </div>
@@ -25,9 +25,10 @@ const Resume = () => {
                             <div className="experience-list">
                                 <div className="single-resume">
                                     <h2>Education</h2>
-                                    <Card year={'2013 - 2015'} title={'Bachelor Degree of Information Technology'} institution={'State University bangladesh'} />
-                                    <Card year={'2021 - 2024'} title={'Higher secoundery Education'} institution={'Premium College United VC'} />
-                                    <Card year={'2020 - 2021'} title={'UI/UX Design'} institution={'Webster College'} />
+                                    <Card year={'2024 - Present'} title={'Web Bachelor 3 Infrastructure & IT Systems, Development'} institution={'YNOV CAMPUS STRASBOURG'} />
+                                    <Card year={'2024'} title={'Certification C#'} institution={'MICROSOFT'} />
+                                    <Card year={'2018 - 2019'} title={"Bachelor's Degree in Sensors, Instrumentation, and Metrology"} institution={'IUT of MONTBÉLIARD'} />
+                                    <Card year={'2015 - 2018'} title={'DUT in Physical Measurements'} institution={'IUT of MONTBÉLIARD'} />
                                 </div>
                             </div>
                         </div>
@@ -57,4 +58,4 @@ const Card = ({ year, title, institution }) => {
             </div>
         </SlideUp>
     )
-}
+} 

@@ -13,7 +13,7 @@ const CallToAction = () => {
                         <SlideUp>
                             <div className="about-content-part call-to-action-part text-center">
                                 <h2>Are You Ready to kickstart your project with a touch of magic?</h2>
-                                <p>Reach out and let's make it happen ✨. I'm also available for full-time or Part-time opportunities to push the boundaries of design and deliver exceptional work.</p>
+                                <p>Reach out and let's make it happen ✨. I am available for an apprenticeship, whether on-site or remotely, to deliver exceptional work and actively contribute to your team!</p>
                                 <div className="hero-btns">
                                     <Link to="/contact" className="theme-btn">Let's Talk  <i><RiDownloadLine size={16} /></i></Link>
                                 </div>
