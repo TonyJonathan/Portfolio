@@ -1,6 +1,12 @@
 import { RiBookLine } from '@remixicon/react'
 import React from 'react'
 import SlideUp from '../../utlits/animations/slideUp'
+import sonceboz from '../../assets/images/entreprise/sonceboz.png'
+import gustave from '../../assets/images/entreprise/gustave.jpeg'
+import flexNGate from '../../assets/images/entreprise/flexNGate.jpg'
+import ynov from '../../assets/images/entreprise/ynov.png'
+import microsoft from '../../assets/images/entreprise/microsoft.png'
+import iut from '../../assets/images/entreprise/iut.png'
 
 const Resume = () => {
     return (
@@ -13,9 +19,9 @@ const Resume = () => {
                             <div className="single-resume">
                                 <h2>Experience</h2>
                                 <div className="experience-list">
-                                    <Card year={'2024 - Present'} title={'Web Developer - Internship'} institution={'GUSTAVE-AUTO'} />
-                                    <Card year={'2024'} title={'Production Operator'} institution={'SONCEBOZ'} />
-                                    <Card year={'2018 - 2019'} title={"Crash and Mechanical Technician"} institution={'FLEX-N-GATE'} />
+                                    <Card year={'2024 - Present'} title={'Web Developer - Internship'} institution={'GUSTAVE-AUTO'} src={gustave} />
+                                    <Card year={'2020-2023'} title={'Production Operator'} institution={'SONCEBOZ'} src={sonceboz} />
+                                    <Card year={'2019 - 2020'} title={"Mechanical and crash Technician"} institution={'FLEX-N-GATE'} src={flexNGate} />
                                 </div>
                             </div>
                         </div>
@@ -25,10 +31,10 @@ const Resume = () => {
                             <div className="experience-list">
                                 <div className="single-resume">
                                     <h2>Education</h2>
-                                    <Card year={'2024 - Present'} title={'Web Bachelor 3 Infrastructure & IT Systems, Development'} institution={'YNOV CAMPUS STRASBOURG'} />
-                                    <Card year={'2024'} title={'Certification C#'} institution={'MICROSOFT'} />
-                                    <Card year={'2018 - 2019'} title={"Bachelor's Degree in Sensors, Instrumentation, and Metrology"} institution={'IUT of MONTBÉLIARD'} />
-                                    <Card year={'2015 - 2018'} title={'DUT in Physical Measurements'} institution={'IUT of MONTBÉLIARD'} />
+                                    <Card year={'2024 - Present'} title={'Web Bachelor 3 Infrastructure & IT Systems, Development'} institution={'YNOV CAMPUS STRASBOURG'} src={ynov} />
+                                    <Card year={'2024'} title={'Certification C#'} institution={'MICROSOFT'} src={microsoft} />
+                                    <Card year={'2018 - 2019'} title={"Bachelor's Degree in Sensors, Instrumentation, and Metrology"} institution={'IUT of MONTBÉLIARD'} src={iut} />
+                                    <Card year={'2015 - 2018'} title={'DUT in Physical Measurements'} institution={'IUT of MONTBÉLIARD'} src={iut} />
                                 </div>
                             </div>
                         </div>
@@ -42,13 +48,12 @@ const Resume = () => {
 
 export default Resume
 
-
-const Card = ({ year, title, institution }) => {
+const Card = ({ year, title, institution, src }) => {
     return (
         <SlideUp>
             <div className="resume-item">
                 <div className="icon">
-                    <RiBookLine />
+                <img src={src} alt="" width={40} />    
                 </div>
                 <div className="content">
                     <span className="years">{year}</span>
