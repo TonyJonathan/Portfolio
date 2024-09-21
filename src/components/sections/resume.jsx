@@ -7,6 +7,7 @@ import flexNGate from '../../assets/images/entreprise/flexNGate.jpg'
 import ynov from '../../assets/images/entreprise/ynov.png'
 import microsoft from '../../assets/images/entreprise/microsoft.png'
 import iut from '../../assets/images/entreprise/iut.png'
+import delfingen from '../../assets/images/entreprise/delfingen.jpg'
 
 const Resume = () => {
     return (
@@ -22,6 +23,7 @@ const Resume = () => {
                                     <Card year={'2024 - Present'} title={'Web Developer - Internship'} institution={'GUSTAVE-AUTO'} src={gustave} />
                                     <Card year={'2020-2023'} title={'Production Operator'} institution={'SONCEBOZ'} src={sonceboz} />
                                     <Card year={'2019 - 2020'} title={"Mechanical and crash Technician"} institution={'FLEX-N-GATE'} src={flexNGate} />
+                                    <Card year={'2019'} title={"Laboratory Technician - Internship"} institution={'DELFINGEN'} src={delfingen} />
                                 </div>
                             </div>
                         </div>
