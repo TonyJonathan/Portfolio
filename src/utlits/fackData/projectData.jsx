@@ -6,15 +6,6 @@ import api from "../../assets/images/projects/api.png"
 export const projectsData = [
     {
         id: 1,
-        src: dictionary,
-        category: "Front-end",
-        title: "Dictionary",
-        description: ["As part of my training, I was asked to create a dictionary web application using the Dictionary API and to make it as close to the design as possible."], 
-        technologies : ["HTML", "CSS","Javascript", "Figma"], 
-        link : "https://tonyjonathan.github.io/05-lab-js-dictionary/"
-    },
-    {
-        id: 2,
         src: toDoList,
         category: "Front-end",
         title: "To do list",
@@ -22,6 +13,16 @@ export const projectsData = [
         technologies : ["HTML", "CSS","Javascript", "Figma"], 
         link : "https://tonyjonathan.github.io/06-lab-js-todo/"
     },
+    {
+        id: 2,
+        src: dictionary,
+        category: "Front-end",
+        title: "Dictionary",
+        description: ["As part of my training, I was asked to create a dictionary web application using the Dictionary API and to make it as close to the design as possible."], 
+        technologies : ["HTML", "CSS","Javascript", "Figma"], 
+        link : "https://tonyjonathan.github.io/05-lab-js-dictionary/"
+    },
+
     {
         id: 3,
         src: contact,
