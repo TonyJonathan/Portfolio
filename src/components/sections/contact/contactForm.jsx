@@ -26,7 +26,7 @@ const ContactForm = () => {
       <SlideUp>
         <div className="contact-form contact-form-area">
           {showThankYou ? (
-            <h2>Thank you for your message</h2>
+            <h2>Thank you for your message, I will get back to you very soon!</h2>
           ) : (
             <form id="contact" className="contactForm" name="contact" onSubmit={handleSubmit}>
               <input type="hidden" name="form-name" value="contact" />
