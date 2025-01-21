@@ -4,7 +4,7 @@ import SlideUp from '../../utlits/animations/slideUp'
 import sonceboz from '../../assets/images/entreprise/sonceboz.png'
 import gustave from '../../assets/images/entreprise/gustave.jpeg'
 import flexNGate from '../../assets/images/entreprise/flexNGate.jpg'
-import ynov from '../../assets/images/entreprise/ynov.png'
+import iscod from '../../assets/images/entreprise/iscod.png'
 import microsoft from '../../assets/images/entreprise/microsoft.png'
 import iut from '../../assets/images/entreprise/iut.png'
 import delfingen from '../../assets/images/entreprise/delfingen.jpg'
@@ -33,7 +33,7 @@ const Resume = () => {
                             <div className="experience-list">
                                 <div className="single-resume">
                                     <h2>Education</h2>
-                                    <Card year={'2024 - Present'} title={'Web Bachelor 3 Infrastructure & IT Systems, Development'} institution={'YNOV CAMPUS STRASBOURG'} src={ynov} />
+                                    <Card year={'2024 - Present'} title={"Bachelor 3 in Application Design and Development"} institution={'ISCOD'} src={iscod} />
                                     <Card year={'2024'} title={'Certification C#'} institution={'MICROSOFT'} src={microsoft} />
                                     <Card year={'2018 - 2019'} title={"Bachelor's Degree in Sensors, Instrumentation, and Metrology"} institution={'IUT of MONTBÉLIARD'} src={iut} />
                                     <Card year={'2015 - 2018'} title={'DUT in Physical Measurements'} institution={'IUT of MONTBÉLIARD'} src={iut} />
