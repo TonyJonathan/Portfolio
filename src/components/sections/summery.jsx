@@ -25,7 +25,7 @@ const Summery = () => {
                                 </h2>
                                 <p>I'm passionate about creating innovative and high-performance web solutions. My journey in the development world has been shaped by an insatiable curiosity and a deep love for problem-solving.</p>
                                 <div className="hero-btns">
-                                    <a href="contact.html" className="theme-btn">Get In touch<i> <RiMailSendLine size={16} /> </i></a>
+                                    <a href="/contact" className="theme-btn">Get In touch<i> <RiMailSendLine size={16} /> </i></a>
                                 </div>
                             </div>
                         </SlideUp>

@@ -4,6 +4,7 @@ import { RiShakeHandsLine } from '@remixicon/react'
 import logo from '../../assets/images/logo.png'
 import { menuList } from '../../utlits/fackData/menuList'
 
+
 const Header = () => {
     const pathName = useLocation().pathname
     const [isSticky, setisSticky] = useState(false)
@@ -27,6 +28,9 @@ const Header = () => {
             setisSticky(false)
         }
     }
+
+    const location = useLocation();
+
     return (
         <header className={`main-header ${isSticky ? "fixed-header" : ""}`}>
             <div className="header-upper">
@@ -64,9 +68,11 @@ const Header = () => {
                             </nav>
 
                         </div>
-                        <div className="menu-btns">
-                            <Link to="/contact" className="theme-btn">Hire Me <RiShakeHandsLine size={15} /> </Link>
-                        </div>
+                        {location.pathname.endsWith('/contact') ? null : (
+                            <div className="menu-btns">
+                                <Link to="/contact" className="theme-btn">Hire Me <RiShakeHandsLine size={15} /> </Link>
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
