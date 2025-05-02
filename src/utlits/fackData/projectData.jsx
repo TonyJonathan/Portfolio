@@ -3,6 +3,7 @@ import toDoList from "../../assets/images/projects/toDoList.png"
 import contact from "../../assets/images/projects/contact.png"
 import api from "../../assets/images/projects/api.png"
 import mealify from "../../assets/images/projects/mealify.png"
+import pizzaStoreApp from "../../assets/images/projects/pizzaStoreApp.png"
 
 export const projectsData = [
     {
@@ -17,6 +18,16 @@ export const projectsData = [
 
     {
         id: 2,
+        src: pizzaStoreApp,
+        category: "Full-stack",
+        title: "PizzaStoreApp",
+        description: ["PizzaStoreApp is a full-stack project consisting of a REST API built with ASP.NET Core and a Blazor WebAssembly user interface, designed to manage a pizza inventory."], 
+        technologies : [ "ASP.NET Core", "Entity Framework Core", "SQL Server (local)", "PostgreSQL (Render)", "Swagger", "Blazor WebAssembly", "Razor Components", "CSS3"], 
+        link : "https://pizzastoreapp.netlify.app/"
+    },
+
+    {
+        id: 3,
         src: toDoList,
         category: "Front-end",
         title: "To do list",
@@ -25,7 +36,7 @@ export const projectsData = [
         link : "https://tonyjonathan.github.io/06-lab-js-todo/"
     },
     {
-        id: 3,
+        id: 4,
         src: dictionary,
         category: "Front-end",
         title: "Dictionary",
@@ -35,16 +46,16 @@ export const projectsData = [
     },
 
     {
-        id: 4,
+        id: 5,
         src: contact,
-        category: "Back-end",
+        category: "Full-stack",
         title: "Contact",
         description: ["This project involves integrating a web application and developing the back-end of a small application that allows adding contacts."], 
         technologies : ["HTML", "CSS","PHP", "Docker", "MySQL", "MailHog"], 
         link : "https://github.com/TonyJonathan/01-lab-php-contact"
     },
     {
-        id: 5,
+        id: 6,
         src: api,
         category: "Back-end",
         title: "API Rest",
