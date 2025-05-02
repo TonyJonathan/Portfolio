@@ -24,7 +24,7 @@ const SingleProject = () => {
             </div>
             <div class="single-project-image">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <img src={project.src} alt="image" />
+                <img src={project.src} alt="image" className='project-picture' />
             </a>
             </div>
             <div class="container pt-30">

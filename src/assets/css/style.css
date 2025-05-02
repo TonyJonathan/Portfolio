@@ -3061,3 +3061,12 @@ ul.blog_pagination li a:hover {
     padding: 25px;
     border: 1px solid var(--border-color);
 }
+
+
+.project-picture {
+    border: 10px solid #000000
+}
+
+.project-picture:hover {
+    border: 10px solid #fd7e14
+}
